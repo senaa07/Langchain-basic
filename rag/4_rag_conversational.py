@@ -25,8 +25,6 @@ retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 llm = ChatOllama(model="llama3.1")
 
-# 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
-# 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
 
 contextualize_q_system_prompt = (
     "Given a chat history and the latest user question "
